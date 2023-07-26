@@ -1,0 +1,40 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_562_3996)">
+<path d="M0 32L64 32C64 14.3333 49.6667 0 32 0C14.3333 0 0 14.3333 0 32Z" fill="#231D9A"/>
+<path d="M64 32L0 32C0 49.6667 14.3333 64 32 64C49.6667 64 64 49.6667 64 32Z" fill="#F0263C"/>
+<path d="M11.381 26L9 21.3333L9.95238 20.8889H12.0952L13.7619 20L16.381 20.4444L19 20V25.1111H15.1905L11.381 26Z" fill="#FFD400"/>
+<path d="M10 18.8182L10.55 22H19V16H17.5L12.75 15L10.55 16.2727L10 18.8182Z" fill="#FFD400"/>
+<path d="M26.619 26L29 21.3333L28.0476 20.8889H25.9048L24.2381 20L21.619 20.4444L19 20V25.1111H22.8095L26.619 26Z" fill="#FFD400"/>
+<path d="M28 18.8182L27.45 22H19V16H20.5L25.25 15L27.45 16.2727L28 18.8182Z" fill="#FFD400"/>
+<path d="M10.5 21L10 18.8182L10.55 16.2727L12.75 15L17.5 16H20.5L25.25 15L27.45 16.2727L28 18.8182L27.5 21" stroke="black"/>
+<path d="M23 25L26.5 26L22.5 27H15L11.5 26L15 25H23Z" fill="black"/>
+<path d="M18 21.5L19 24L20 21.5L19 22L18 21.5Z" fill="black"/>
+<path d="M13.5 22L15 24L15 22L14.5 22.5L13.5 22Z" fill="black"/>
+<path d="M24.5 22L23 24L23 22L23.5 22.5L24.5 22Z" fill="black"/>
+<path d="M11 23L12.5 24L12 23L11 23Z" fill="black"/>
+<path d="M27 23L25.5 24L26 23L27 23Z" fill="black"/>
+<path d="M17.6667 16H20.3333L21.5 20H16.5L17.6667 16Z" fill="black"/>
+<path d="M18.3333 16H19.6667L20.5 20H17.5L18.3333 16Z" fill="#FFD400"/>
+<path d="M19 10L20.5 14H17.5L19 10Z" fill="#FFD400"/>
+<path d="M15 13.5L19 12L19 15L15 13.5Z" fill="#FFD400"/>
+<path d="M23 13.5L19 15L19 12L23 13.5Z" fill="#FFD400"/>
+<circle cx="19" cy="14" r="2" fill="black"/>
+<circle cx="19" cy="14" r="1" fill="#FFD400"/>
+<path d="M9 21.3333L9.95238 20.8889H12.0952L13.7619 20L16.381 20.4444L19 20L21.619 20.4444L24.2381 20L25.9048 20.8889H28.0476L29 21.3333" stroke="black"/>
+<path d="M16.5 17L15.5 16L18 16.5L17 19L16.5 17Z" fill="black"/>
+<path d="M21.5 17L22.5 16L20 16.5L21 19L21.5 17Z" fill="black"/>
+<path d="M13 15V20.5L12 21L13 15Z" fill="black"/>
+<path d="M15 15V20H14L15 15Z" fill="black"/>
+<path d="M25 15V20.5L26 21L25 15Z" fill="black"/>
+<path d="M23 15V20H24L23 15Z" fill="black"/>
+<path d="M17 22V20.5H15L17 22Z" fill="black"/>
+<path d="M13 22.5V21H11L13 22.5Z" fill="black"/>
+<path d="M25 22.5V21H27L25 22.5Z" fill="black"/>
+<path d="M21 22V20.5H23L21 22Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_562_3996">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>

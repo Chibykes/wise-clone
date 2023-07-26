@@ -2,26 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: 'Averta';
+  src: url('/fonts/Averta.woff2');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter.woff2');
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: 'WorldWise';
+  src: url('/fonts/WorldwiseSans-Heavy.woff2');
+}
+
+:root{
+  --color-accent: #ecefeb;
+  --color-black: #0e0f0c;
+  --color-lime: #9fe870;
+  --color-lime-accent: #80e142;
+  --color-lime-dark: #163300;
+  --wise-sans: 'WorldWise','Inter','Averta', sans-serif;
+}
+
+*{
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3{
+  font-family: var(--wise-sans);
 }
