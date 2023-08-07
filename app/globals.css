@@ -23,7 +23,10 @@
   --color-lime: #9fe870;
   --color-lime-accent: #80e142;
   --color-lime-dark: #163300;
+  --color-purple-dark: #260a2f;
   --wise-sans: 'WorldWise','Inter','Averta', sans-serif;
+  --bg-testimonial-1: #a0e1e1;
+  --bg-testimonial-2: #ffc091;
 }
 
 *{
@@ -32,4 +35,20 @@
 
 h1,h2,h3{
   font-family: var(--wise-sans);
+}
+
+.footer-links{
+  @apply text-neutral-700 text-sm underline underline-offset-4;
+}
+
+.mobile-nav-height{
+  height: calc(100% - 5rem);
+}
+
+.show-menu-btn{
+  @apply opacity-100 translate-x-0
+}
+
+.hide-menu-btn{
+  @apply opacity-0 translate-x-24
 }

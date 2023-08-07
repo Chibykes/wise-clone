@@ -4,8 +4,8 @@ export default function Hero(){
     return (
         <section className="max-w-6xl mx-auto">
 
-            <div className="flex flex-col justify-center items-center pt-20 pb-10 space-y-8">
-                <h1 className="text-center text-8xl font-bold">
+            <div className="flex flex-col justify-center items-center pt-20 pb-10 lg:px-0 px-5 space-y-8">
+                <h1 className="text-center text-[---color-black] lg:text-8xl text-5xl font-bold">
                     Save when you spend <br />
                     worldwide
                 </h1>
@@ -14,14 +14,16 @@ export default function Hero(){
                     Save up to 9x when you send with Wise.
                 </p>
 
-                <div className="flex justify-center items-center space-x-5">
+                <div className="flex lg:flex-row flex-col justify-center items-center gap-5 w-full">
                     <div className="
+                        lg:inline-block lg:w-auto block w-full text-center
                         px-6 py-3 text-[--color-lime-dark] font-semibold 
                         bg-[--color-lime] hover:bg-[--color-lime-accent] rounded-full
                     ">
                         Send money now
                     </div>
                     <div className="
+                        lg:inline-block lg:w-auto block w-full text-center
                         px-6 py-3 text-[--color-lime-dark] font-semibold 
                         bg-transparent hover:bg-[--color-lime-accent] rounded-full
                         border border-[--color-limie-dark] hover:border-transparent
