@@ -61,8 +61,8 @@ export default function Countries(){
 
             <footer className="max-w-6xl mx-auto space-y-8">
                 <div className="
-                    grid lg:grid-cols-4 grid-cols-1 lg:justify-items-start 
-                    justify-items-center text-center gap-5
+                    grid lg:grid-cols-4 grid-cols-1 lg:justify-items-start
+                    justify-items-center lg:text-left text-center gap-5
                 ">
                     
                     <div className="space-y-5">
