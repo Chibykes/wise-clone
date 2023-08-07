@@ -7,7 +7,7 @@ export default function Security(){
 
             <div className="flex lg:flex-row flex-col gap-4 items-center">
                 
-                <div className="col-span-7 space-y-8 lg:order-0 order-1">
+                <div className="col-span-7 space-y-8 lg:order-[0] order-1">
                     <p className="lg:text-6xl text-4xl text-[--color-black] font-semibold">
                         Disappoint thieves
                     </p>
