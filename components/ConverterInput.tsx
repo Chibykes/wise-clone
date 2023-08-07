@@ -18,7 +18,7 @@ export default function ConverterInput({ currency, flag, value }:Props){
             overflow-hidden
         ">
             <input className="
-                focus:outline-none w-full bg-transparent p-5
+                focus:outline-none w-full bg-transparent p-5 pr-0
                 text-2xl
             "
                 onChange={(e) => e.target.value = e.target.value}
@@ -27,6 +27,7 @@ export default function ConverterInput({ currency, flag, value }:Props){
             <div className="flex shrink-0 p-5 gap-2 justify-center items-center">
                 <div className="relative">
                     <Image 
+                        className='w-5 h-5 lg:w-7 lg:h-7'
                         src={flag}
                         width={30}
                         height={30}

@@ -55,7 +55,7 @@ export default function Header(){
 
             <nav className="
                 flex lg:flex-row flex-col w-full lg:justify-between lg:items-center
-                lg:relative absolute bottom-0 -left-full z-[99]
+                lg:relative absolute bottom-0 lg:!left-0 -left-full z-[99]
                 lg:h-auto mobile-nav-height bg-white
                 lg:py-0 py-5 lg:px-0 px-5 gap-5 duration-500
                 overflow-hidden
