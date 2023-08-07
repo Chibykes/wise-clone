@@ -24,7 +24,7 @@ export default function ConverterSection(){
                             bg-bottom bg-contain
                         ">
                             <div className="
-                                p-8 w-full h-full bg-white rounded-3xl
+                                lg:p-8 p-4 w-full h-full bg-white rounded-3xl
                                 space-y-6
                             ">
                                 <div className="space-y-1">
@@ -44,15 +44,14 @@ export default function ConverterSection(){
                                                 grid place-content-center w-5 h-5 bg-neutral-200
                                                 rounded-full font-semibold
                                             ">-</div>
-                                            <span className="text-lg text-[--color-black] font-semibold">6.38 GBP</span>
+                                            <span className="lg:text-lg text-sm text-[--color-black] font-semibold">6.38 GBP</span>
                                         </div>
 
                                         <div className="flex">
                                             <div className="">
                                                 <span className="
-                                                    text-[--color-lime-dark] font-semibold relative
-                                                    after:absolute after:-bottom-px after:left-0
-                                                    after:w-full after:h-px after:bg-[--color-lime-dark]
+                                                    lg:text-lg text-sm text-[--color-lime-dark] font-semibold 
+                                                    underline underline-offset-4
                                                 ">
                                                     Low cost transfer fee
                                                 </span>
@@ -67,13 +66,13 @@ export default function ConverterSection(){
                                                 grid place-content-center w-5 h-5 bg-neutral-200
                                                 rounded-full font-semibold
                                             ">=</div>
-                                            <span className="text-lg text-[--color-black] font-semibold">993.87 GBP</span>
+                                            <span className="lg:text-lg text-sm text-[--color-black] font-semibold">993.87 GBP</span>
                                         </div>
 
                                         <div className="flex">
                                             <div className="">
                                                 <span className="
-                                                    text-neutral-500 relative
+                                                    lg:text-lg text-sm text-neutral-500 relative
                                                 ">
                                                     Total amount we’ll convert
                                                 </span>
@@ -88,18 +87,16 @@ export default function ConverterSection(){
                                                 rounded-full font-semibold
                                             ">-</div>
                                             <span className="
-                                                text-lg text-[--color-lime-dark] font-semibold relative
-                                                after:absolute after:-bottom-px after:left-0
-                                                after:w-full after:h-px after:bg-[--color-lime-dark]
+                                                lg:text-lg text-sm text-[--color-lime-dark] font-semibold 
+                                                underline underline-offset-4
                                             ">980.661 GBP</span>
                                         </div>
 
                                         <div className="flex">
                                             <div className="">
                                                 <span className="
-                                                    text-[--color-lime-dark] font-semibold relative
-                                                    after:absolute after:-bottom-px after:left-0
-                                                    after:w-full after:h-px after:bg-[--color-lime-dark]
+                                                    lg:text-lg text-sm text-[--color-lime-dark] font-semibold 
+                                                    underline underline-offset-4
                                                 ">
                                                     Guaranteed rate (41h)
                                                 </span>

@@ -79,6 +79,7 @@ export default function Testimonials(){
 
     return (
         <section className="overflow-hidden">
+
             <div className="max-w-6xl mx-auto py-20 lg:px-0 px-5">
                 <div className="grid grid-cols-12 grid-row-2 lg:gap-0 gap-8 isolate">
 
@@ -89,19 +90,23 @@ export default function Testimonials(){
                     </div>
 
                     <div id="testimonials" className="
-                        lg:col-start-8 lg:row-span-2 lg:col-span-5 col-span-8
+                        lg:col-start-8 lg:row-span-2 lg:col-span-5 col-span-10
                         flex flex-1 relative isolate
                     ">
                         {testimonials.map(({img, quote, bg, color, btnText}:Testimonial, index) => (
-                            <div key={index} className="duration-500 w-full h-full pr-8 last:pr-0 flex-shrink-0">
+                            <div key={index} className="duration-500 w-full h-full lg:pr-8 pr-4 last:pr-0 flex-shrink-0">
                                 <div className={`
-                                    rounded-3xl bg-[${bg}] w-full h-full flex flex-col gap-16 p-8 min-h-[600px]
+                                    rounded-3xl w-full h-full flex flex-col gap-16 p-8 min-h-[600px]
                                 `}
                                     data-tabindex={index}
+                                    style={{
+                                        background: `var(${bg})`
+                                    }}
                                 >
 
                                     <div className="relative">
                                         <Image 
+                                            className="lg:w-36 lg:h-36 w-20 h-20"
                                             src={img}
                                             width={150}
                                             height={150}
@@ -109,16 +114,26 @@ export default function Testimonials(){
                                         />
                                     </div>
 
-                                    <p className={`text-[${color}] text-3xl font-semibold`}>
+                                    <p 
+                                        className={`text-3xl font-semibold`}
+                                        style={{
+                                            color: `var(${color})`
+                                        }}
+                                    >
                                         &ldquo;{quote}&rdquo;
                                     </p>
 
                                     <div className="flex items-center space-x-5 mt-auto">
                                         <div className={`
                                             lg:inline-block lg:w-auto block w-full text-center
-                                            px-6 py-3 text-[${color}] font-semibold 
-                                            bg-[${bg}] hover:bg-[#3a341c] rounded-full
-                                        `}>
+                                            px-6 py-3 font-semibold 
+                                            hover:bg-[#3a341c] rounded-full
+                                        `}
+                                            style={{
+                                                background: `var(${color})`,
+                                                color: `var(${bg})`,
+                                            }}
+                                        >
                                             {btnText}
                                         </div>
                                     </div>
